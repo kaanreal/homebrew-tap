@@ -1,7 +1,7 @@
 cask "henkan" do
-  version "1.1.0"
-  sha256 "1919444d4fe46ffdf5aeb0cd0b37c395be82ff29569afab2c404f5032e246b2d"
-  url "https://github.com/kaanreal/henkan/releases/download/v1.1.0/Henkan_1.1.0_aarch64.dmg"
+  version "1.2.0"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  url "https://github.com/kaanreal/henkan/releases/download/v1.2.0/Henkan_1.2.0_aarch64.dmg"
   name "Henkan"
   desc "osu!mania to Etterna/StepMania beatmap converter"
   homepage "https://github.com/kaanreal/henkan"
