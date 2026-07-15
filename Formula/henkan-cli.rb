@@ -9,6 +9,6 @@ class HenkanCli < Formula
     system "cargo", "install", *std_cargo_args(path: "src-tauri"), "--bin", "henkan-cli"
   end
   test do
-    assert_match "Usage", shell_output("#{bin}/henkan-cli --help")
+    assert_match "Commands", shell_output("#{bin}/henkan-cli --help")
   end
 end
