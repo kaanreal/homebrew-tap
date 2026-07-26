@@ -1,8 +1,8 @@
 class HenkanCli < Formula
   desc "CLI for osu!mania to Etterna/StepMania beatmap converter"
   homepage "https://github.com/kaanreal/henkan"
-  url "https://github.com/kaanreal/henkan/archive/refs/tags/v1.4.0.tar.gz"
-  sha256 "5a00e30d5479a18bf8039948e9ed14885691e0c2a3af44e5510aedbc33d67158"
+  url "https://github.com/kaanreal/henkan/archive/refs/tags/v1.5.0.tar.gz"
+  sha256 "3ffb4b8e7eb5d948ed7a24b282fcb63006a70027dad5d8501d4279b07889ed07"
   license "MIT"
   depends_on "rust" => :build
   def install
